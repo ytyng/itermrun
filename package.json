@@ -1,0 +1,7 @@
+{
+  "name": "itermrun",
+  "version": "0.0.1",
+  "bin": {
+    "itermrun": "itermrun"
+  }
+}

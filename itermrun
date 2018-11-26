@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+scriptfile=/tmp/itermrun.sh
+echo "#!/usr/bin/env bash" > ${scriptfile}
+echo $* >> ${scriptfile}
+chmod +x ${scriptfile}
+open -a iTerm ${scriptfile}
